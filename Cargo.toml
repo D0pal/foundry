@@ -73,7 +73,7 @@ codegen-units = 1
 #ethers-solc = { version = "2.0.7", default-features = false }
 
 
-solang-parser = "=0.3.2"
+#solang-parser = "=0.3.2"
 
 ethers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
 ethers-addressbook = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
