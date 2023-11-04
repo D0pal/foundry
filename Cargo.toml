@@ -75,16 +75,16 @@ codegen-units = 1
 
 solang-parser = "=0.3.2"
 
-ethers = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-addressbook = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-core = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-contract = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-contract-abigen = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-providers = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-signers = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-middleware = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-etherscan = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
-ethers-solc = { git = "https://github.com/D0pal/ethers-rs.git", default-features = false }
+ethers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-addressbook = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-core = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-contract = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-contract-abigen = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-providers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-signers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-middleware = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-etherscan = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
+ethers-solc = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , default-features = false }
 
 [patch.crates-io]
 # ethers = { path = "../ethers-rs/ethers" }
