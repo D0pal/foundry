@@ -11,7 +11,7 @@ foundry-config = { path = "./../config" }
 foundry-evm = { path = "./../evm" }
 
 # TODO: Trim down
-ethers = { workspace = true, features = ["solc-full"] }
+ethers = { git = "https://github.com/gakonst/ethers-rs.git", rev = "7b7c623", workspace = true, features = ["solc-full"] }
 
 comfy-table = "6"
 eyre = "0.6"
