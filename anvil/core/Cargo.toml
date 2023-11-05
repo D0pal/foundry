@@ -7,9 +7,9 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 # foundry internal
 foundry-evm = { path = "../../evm" }
-revm = { version = "3", default-features = false, features = ["std", "serde", "memory_limit"] }
+revm = { git = "https://github.com/bluealloy/revm.git", rev = "ac5c748", default-features = false, features = ["std", "serde", "memory_limit"] }
 
-ethers-core = { workspace = true }
+ethers-core = {  git = "https://github.com/gakonst/ethers-rs.git", rev = "7b7c623", workspace = true }
 serde = { version = "1", features = ["derive"], optional = true }
 serde_json = "1"
 bytes = { version = "1.4" }
