@@ -13,7 +13,7 @@ keywords = ["ethereum", "web3", "solidity", "linter"]
 foundry-config = { path = "../config" }
 
 # ethers
-ethers-core = { workspace = true }
+ethers-core = {  git = "https://github.com/gakonst/ethers-rs.git", rev = "7b7c623", workspace = true }
 
 # parser
 solang-parser.workspace = true
